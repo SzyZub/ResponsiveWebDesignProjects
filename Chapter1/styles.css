@@ -1,0 +1,52 @@
+html,body {
+    height:100%;
+    width:100%;
+    padding: 0;
+    margin: 0;
+}   
+
+h1 {
+    text-align: center;
+    margin: 0;
+  }
+
+body {
+    background-color: rgb(12, 29, 68);
+    color: rgb(220, 220, 220);
+  }
+
+.description {
+    text-align: center;
+    font-size: 1.2em;
+  }
+  
+fieldset {
+    border: 0;
+  }
+  
+form {
+    margin: 0px 15% 0px 15%;
+    background-color:rgb(17, 17, 32);
+    max-width: 1200px;
+  }
+  
+input[type="submit"] {
+    text-align: center;
+    width: 80%;
+    margin: 1em auto;
+    height: 3em;
+    font-size: 1.05em;
+    display: block;
+    background-color: rgb(11, 81, 11);
+    max-width: 500px;
+  }
+    
+input, textarea{
+    background-color: rgb(12, 29, 68);
+    color: rgb(236, 236, 236);
+    border: 0;
+  }
+
+textarea {
+    width: 50%;
+}
