@@ -10,16 +10,15 @@
     <main>
     <h1 id="title">Survey form</h1>
     <p id="description" class="description">Thank you for participating in the survey</p>
-    <div id="form">
     <form id="survey-form">
       <fieldset>
-      <input for ="name-label" required id="name" type="text" placeholder="Enter your first name"><label id="name-label"> Name</label>
+      <input for="name-label" required type="text" placeholder="Enter your first name"><label id="name-label"> Name</label>
       </fieldset>
       <fieldset>
-      <input for="email-label" required id="email" type="email" placeholder ="Enter you email"><label id="email-label"> Email</label>
+      <input for="email-label" required type="email" placeholder ="Enter you email"><label id="email-label"> Email</label>
       </fieldset>
       <fieldset>
-      <input for="number-label" id="number" type="number" min="13" max="120" placeholder="Enter your age"><label id="number-label"> Age (optional)</label>
+      <input for="number-label" type="number" min="13" max="120" placeholder="Enter your age"><label id="number-label"> Age (optional)</label>
       </fieldset>
       <fieldset>
       <select id="dropdown">
@@ -41,13 +40,12 @@
           </fieldset>
           <fieldset>
             <label for="textarea"> Do you have any suggestions or questions?<br></label>
-            <textarea id="textarea" cols="40">Enter your comments here</textarea>
+            <textarea id="textarea">Enter your comments here</textarea>
             </fieldset>
           <fieldset id="submitbut">
           <input type="submit" id="submit" value="Click to submit the survey">
           </fieldset>
       </form>
-      </div>
       </main>
     </body>
   </html>
