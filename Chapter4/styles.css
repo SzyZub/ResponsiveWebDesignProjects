@@ -1,0 +1,142 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(25, 25, 25);
+    color: rgb(230, 230, 230);
+}
+
+nav {
+    position: fixed;
+    display: flex;
+    width: 100vw;
+    background-color: rgb(15, 15, 15);
+}
+
+.img {
+    display: flex;
+    padding-right: 1.4vw;
+    margin-left: 1vw;
+    flex-direction: row;
+    align-items: center;
+}
+
+.labelrock {
+    font-size: 1.5rem;
+    padding-left: 1vw;
+    font-family: sans-serif;
+}
+
+#header-img {
+    width: 60px;
+}
+
+.navbardiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 100%;
+    gap: 15vw;
+    font-size: 2rem;
+    margin-right: 4vw;
+    align-items: center;
+}
+
+ a {
+    text-decoration: none;
+    color: rgb(230, 230, 230);
+ }
+
+ .video {
+    width: 800px;
+    margin: 0 auto;
+    padding-top: 15vh;
+ }
+
+ #video {
+    width: 100%;
+ }
+
+ form {
+    padding-top: 5vh;
+    text-align: center;
+ }
+
+ h2 {
+    font-weight: 500;
+    font-size: 1.5rem;
+    text-align: center;
+    padding-bottom: 8px;
+ }
+
+ #email {
+    height: 30px;
+    width: 300px;
+    background-color: rgb(15, 15, 20);
+    color:rgb(230, 230, 230);
+    border: 0;
+    text-align: center;
+ }
+ 
+ #submit {
+    margin-top: 8px;
+    background-color: rgb(15, 15, 20);
+    border: 0;
+    color:rgb(230, 230, 230);
+    height: 30px;
+    width: 400px;
+    margin-bottom: 30px;
+ }
+
+ #submit:hover{
+    background-color: rgb(150, 150, 160);
+    color: rgb(15, 15, 15);
+    cursor: pointer;
+ }
+
+ #purchase {
+    margin: 0 auto;
+    width: 300px;
+    background-color: rgb(50, 50, 50);
+    margin-bottom: 30px;
+    padding-bottom: 25px;
+    border: 1px solid rgb(200, 200, 200);
+ }
+
+h3 {
+    text-align: center;
+    font-size: 2rem;
+}
+
+h4 {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+ul {
+    padding-top: 40px;
+}
+ li {
+    list-style-type: disc;
+    list-style-position: inside;
+    font-size: 1.2rem;
+    font-family: sans-serif;
+    line-height: 25px;
+    margin-left: 15px;
+ }
+
+ @media (max-width: 900px) {
+    html {
+        font-size: 12px;
+    }
+    .video {
+        width: 400px;
+    }
+    .navbardiv {
+        gap: 5vw;
+    }
+ }
