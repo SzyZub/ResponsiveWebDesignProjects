@@ -51,13 +51,15 @@ nav {
  }
 
  .video {
-    width: 800px;
+    width: 910px;
+    height: 630px;
     margin: 0 auto;
     padding-top: 15vh;
  }
 
  #video {
     width: 100%;
+    height: 100%;
  }
 
  form {
@@ -101,7 +103,6 @@ nav {
     margin: 0 auto;
     width: 300px;
     background-color: rgb(50, 50, 50);
-    margin-bottom: 30px;
     padding-bottom: 25px;
     border: 1px solid rgb(200, 200, 200);
  }
@@ -128,13 +129,17 @@ ul {
     line-height: 25px;
     margin-left: 15px;
  }
-
+.empty {
+    display: block;
+    padding-top: 20px;
+}
  @media (max-width: 900px) {
     html {
         font-size: 12px;
     }
     .video {
         width: 400px;
+        height: 340px;
     }
     .navbardiv {
         gap: 5vw;
